@@ -95,7 +95,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x/y;
+  return x%y;
 }
 
 
@@ -254,3 +254,40 @@ function esVocal(letra){
 return "Dato incorrecto"
 
 }
+// No modificar nada debajo de esta línea
+// --------------------------------
+module.exports = {
+  nuevaString,
+  nuevoNum,
+  nuevoBool,
+  nuevaResta,
+  nuevaMultiplicacion,
+  nuevoModulo,
+  devolverString,
+  tienenMismaLongitud,
+  sonIguales,
+  menosQueNoventa,
+  mayorQueCincuenta,
+  suma,
+  resta,
+  divide,
+  multiplica,
+  obtenerResto,
+  esPar,
+  esImpar,
+  elevarAlCuadrado,
+  elevarAlCubo,
+  elevar,
+  redondearNumero,
+  redondearHaciaArriba,
+  numeroRandom,
+  esPositivo,
+  agregarSimboloExclamacion,
+  combinarNombres,
+  obtenerSaludo,
+  obtenerAreaRectangulo,
+  retornarPerimetro,
+  areaDelTriangulo,
+  deEuroAdolar,
+  esVocal,
+};
